@@ -1,1 +1,1 @@
-# Dice-in-the-Box
+# ME314 Machine Dynamics Final Projecy - Jack in theBox
