@@ -22,17 +22,17 @@ There are **11** frames in total:
 3. j1 ~ j4 are 4 vertices of the dice in clockwise order.
 
 ## Configurations
-1. Position(x, y, $\theta$): <br>
+1. Position(x, y, $\theta$): 
     - Box = [0,&nbsp; 0,&nbsp; &pi;/2] <br>
     - Dice = [2.5,&nbsp; 2.5,&nbsp; 0] <br>
-2. Mass: <br>
+2. Mass: 
     - Box = 10 <br>
     - Dice = 1 <br>
 3. Length(distance from center mass to 4 edges): 
     - Box = 5 <br>
     - Dice = 2 <br>
 
-4. Velocity($\dot{x}$, $\dot{y}$, $\dot{\theta}$): <br>
+4. Velocity($\dot{x}$, $\dot{y}$, $\dot{\theta}$): 
     - Box = [-5,&nbsp; 0,&nbsp; 0] <br>
     - Dice = [0,&nbsp; 0,&nbsp; 0] <br>
 
