@@ -1,6 +1,16 @@
 # ME314 Machine Dynamics Final Project - Dice in the Box
 This is the repository of the final project of ME314 Machine Dynamics at Northwestern University
 
+## Insturctions
+- **To run the simulation on Cloud:(recommended)**
+    - Open the Jupyter Notebook file on Google Colab
+    - Select "Restart session and run all" under the "Runtime" tab
+    - The simulation results and animation will be displayed in the output cells
+- **To run the simulation on Local Machine:**
+    - Make sure you have installed the required packages by running the following command:
+        ```bash
+        pip install numpy sympy matplotlib plotly notebook
+        ```
 ## Video Demo
 <p align = "center">
     <img align="center" src="Animation\dice_in_the_box.gif">
