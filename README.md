@@ -87,12 +87,12 @@ There are **11** frames in total:
 
 ## Results Visualization
 <p algin="center">
-    <img src="Trajectories\box_positions.jpg">
-    <img src="Trajectories\dice_positions.jpg">
+    <img src="Trajectories\box_positions.jpg" width=300>
+    <img src="Trajectories\dice_positions.jpg" width=300>
 </p>
 <p algin="center">
-    <img src="Trajectories\box_velocities.jpg">
-    <img src="Trajectories\dice_velocities.jpg">
+    <img src="Trajectories\box_velocities.jpg" width=300>
+    <img src="Trajectories\dice_velocities.jpg" width=300>
 </p>
 
 ## Summary
