@@ -87,7 +87,7 @@ There are **11** frames in total:
 
 ## Results Visualization
 
-<html>
+<!-- <html> -->
 <head>
     <title>Images Side by Side</title>
     <style>
@@ -109,7 +109,7 @@ There are **11** frames in total:
         <img src="Trajectories\dice_velocities.jpg" width="468">
     </div>
 </body>
-</html>
+<!-- </html> -->
 
 ## Summary
 
