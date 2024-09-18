@@ -2,15 +2,24 @@
 This is the repository of the final project of ME314 Machine Dynamics at Northwestern University
 
 ## Insturctions
-- **To run the simulation on Cloud:(recommended)**
+- **To run the simulation on Cloud(recommended):**
     - Open the Jupyter Notebook file on Google Colab
     - Select "Restart session and run all" under the "Runtime" tab
     - The simulation results and animation will be displayed in the output cells
+
 - **To run the simulation on Local Machine:**
     - Make sure you have installed the required packages by running the following command:
         ```bash
         pip install numpy sympy matplotlib plotly notebook
         ```
+    - Open the terminal and navigate to the directory where the Jupyter Notebook file is located
+    - Run the following command to start the Jupyter Notebook server:
+        ```bash
+        jupyter notebook
+        ```
+    - Open the Jupyter Notebook file in the browser and select "Restart & Run All" under the "Kernel" tab
+    - The simulation results and animation will be displayed in the output cells
+
 ## Video Demo
 <p align = "center">
     <img align="center" src="Animation\dice_in_the_box.gif">
