@@ -50,7 +50,10 @@ There are **11** frames in total:
 2. *Euler–Lagrange equations:* <br>
 
     - Step&nbsp;1: &nbsp;Based on the formula shown below, the body velocities for both the box and the dice are calculated. Specifically, the body velocities for the box and the dice are calculated by applying the unhat function to the **inv(g_wb0)\*dot(g_wb0)** and **inv(g_wj0)\*dot(g_wj0)** respectively. Since gravity is acting in a direction(z-direction in this case) perpendicular to the plane of my interest, there is no change of gravitational potential energy for motion within the plane.
+
+<p align = "center">
     <img align="center" src="Formulas\Body_Velocity.jpg"/>
+</p>
 
     - Step&nbsp;2: &nbsp;The spatial inertia matrices for the box and the dice are calculated using the formula shown below, where m is the total body mass, I<sub>3</sub> is a 3x3 identity matrix,[r] is the 3x3 skew-symmetric matrix formed from the center of mass position vector r, and J is the 3x3 rotational inertia matrix about the center of mass.
     <img src="Formulas\Inertia_Matrix.jpg"/>
