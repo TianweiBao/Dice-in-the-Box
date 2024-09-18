@@ -32,7 +32,7 @@ There are **11** frames in total:
     - Box = 5 <br>
     - Dice = 2 <br>
 
-4. Velocity(&#x1E8B;, &#7823;, θ&#729;): <br>
+4. Velocity(&#x1E8B;, &#7823;, θ&#729;, $$\dot{\theta}$$): <br>
     - Box = [-5,&nbsp; 0,&nbsp; 0] <br>
     - Dice = [0,&nbsp; 0,&nbsp; 0] <br>
 
