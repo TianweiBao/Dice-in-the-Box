@@ -10,6 +10,7 @@ This is the repository of the final project of ME314 Machine Dynamics at Northwe
 This project aims to model the multi-body Lagrangian dynamics of a dice colliding within a rotating box from scratch. The simulation is implemented in Python using SymPy for symbolic computation and NumPy for numerical computation. The simulation involves formulating impact updates and applying constrained Euler-Lagrange equations to account for the collision and physical constraints between the dice and the box. The animation is created using plotly package and the simulation results are visualized using Matplotlib. The simulation results are validated by comparing the numerical results with the theoretical predictions obtained from the Lagrangian dynamics equations. As shown by the video demo, the dice and the box both follow the expected trajectories, demonstrating the accuracy of the simulation model.
 ## Dynamics Model Design
 <img align="center" src="Design\design.jpg"/>
+
 There are **11** frames in total:
 1. W : World frame (reference frame) 
 2. b0 ~ b4 : Box frames 
