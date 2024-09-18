@@ -11,12 +11,10 @@ This project aims to model the multi-body Lagrangian dynamics of a dice collidin
 ## Dynamics Model Design
 <img align="center" src="Design\design.jpg"/>
 
-<p align = "center">
 There are **11** frames in total:
 1. W : World frame (reference frame) 
 2. b0 ~ b4 : Box frames 
 3. j0 ~ j4 : Dice(Jack) frames
-</p>
 
 **Note:** 
 1. b0 and j0 are defined to be the center mass of the box and dice respectively.
