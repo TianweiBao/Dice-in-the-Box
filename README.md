@@ -56,15 +56,24 @@ There are **11** frames in total:
     </p>
 
     - Step&nbsp;2: &nbsp;The spatial inertia matrices for the box and the dice are calculated using the formula shown below, where m is the total body mass, I<sub>3</sub> is a 3x3 identity matrix,[r] is the 3x3 skew-symmetric matrix formed from the center of mass position vector r, and J is the 3x3 rotational inertia matrix about the center of mass.
-    <img src="Formulas\Inertia_Matrix.jpg"/>
+
+    <p align = "center">
+        <img align="center" src="Formulas\Inertia_Matrix.jpg"/>
+    </p>
 
     - Step&nbsp;3: &nbsp;The rotational kinetic energy and potential energy for the box and the dice are calculated. Given my assumptions made in the step 1, the rotational potential energy are zeros for both the box and the dice. Since the body velocities and inertia matrices for the box and the dice are already calculated in step 1 and step 2, we can easily get the rotaional kinetic energy by using the formula shown below. 
-    <img src="Formulas\Rotational_KE.jpg"/>
+
+    <p align = "center">
+        <img align="center" src="Formulas\Rotational_KE.jpg"/>
+    </p>
 
     - Step&nbsp;4: &nbsp;After getting the rotational kinetic energy and potential energy, we can construct the Lagrangian of the system using L = KE - PE.
 
     - Step&nbsp;5: &nbsp;We then find the Euler Lagrange equations based on the Lagrangian constructed in step 4. The formulation of Euler Lagrange equations are shown below for reference, where Q is the external force acting on the system. Regarding the external force, since I want to simulate the movement of shaking the dice back and forth horizontally on the table, I apply the external force sin(t\*&pi;)\*K on the system, where the specific value of K is chosen through trial and error for the best visual effect and t is the time variable. Thus, by constructing the Euler Lagrange equations, we can easily solve q&#x0308;
-    <img src="Formulas\EL_Eqns.jpg"/>
+
+    <p align = "center">
+        <img align="center" src="Formulas\EL_Eqns.jpg"/>
+    </p>
 
 3. *Impact Updates:* <br>
 
