@@ -69,7 +69,7 @@ There are **11** frames in total:
 
     - Step&nbsp;4: &nbsp;After getting the rotational kinetic energy and potential energy, we can construct the Lagrangian of the system using L = KE - PE.
 
-    - Step&nbsp;5: &nbsp;We then find the Euler Lagrange equations based on the Lagrangian constructed in step 4. The formulation of Euler Lagrange equations are shown below for reference, where Q is the external force acting on the system. Regarding the external force, since I want to simulate the movement of shaking the dice back and forth horizontally on the table, I apply the external force sin(t\*$\pi$)\*K on the system, where the specific value of K is chosen through trial and error for the best visual effect and t is the time variable. Thus, by constructing the Euler Lagrange equations, we can easily solve $\ddot{q}$
+    - Step&nbsp;5: &nbsp;We then find the Euler Lagrange equations based on the Lagrangian constructed in step 4. The formulation of Euler Lagrange equations are shown below for reference, where Q is the external force acting on the system. Regarding the external force, since I want to simulate the movement of shaking the dice back and forth horizontally on the table, I apply the external force sin(t\*&pi;)\*K on the system, where the specific value of K is chosen through trial and error for the best visual effect and t is the time variable. Thus, by constructing the Euler Lagrange equations, we can easily solve $\ddot{q}$
 
     <p align = "center">
         <img align="center" src="Formulas\EL_Eqns.jpg"/>
