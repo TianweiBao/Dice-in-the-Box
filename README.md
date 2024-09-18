@@ -86,30 +86,14 @@ There are **11** frames in total:
     </p>
 
 ## Results Visualization
-
-<!-- <html> -->
-<head>
-    <title>Images Side by Side</title>
-    <style>
-        .image-container {
-            display: flex;
-        }
-        .image-container img {
-            margin-right: 0px; /* Optional: space between images */
-        }
-    </style>
-</head>
-<body>
-    <div class="image-container">
-        <img src="Trajectories\box_positions.jpg" width="468">
-        <img src="Trajectories\dice_positions.jpg" width="468">
-    </div>
-    <div class="image-container">
-        <img src="Trajectories\box_velocities.jpg" width="468">
-        <img src="Trajectories\dice_velocities.jpg" width="468">
-    </div>
-</body>
-<!-- </html> -->
+<p algin="center">
+    <img src="Trajectories\box_positions.jpg" width="468">
+    <img src="Trajectories\dice_positions.jpg" width="468">
+</p>
+<p>
+    <img src="Trajectories\box_velocities.jpg" width="468">
+    <img src="Trajectories\dice_velocities.jpg" width="468">
+</p>
 
 ## Summary
 
