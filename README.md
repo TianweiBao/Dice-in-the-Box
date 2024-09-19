@@ -1,6 +1,16 @@
 # ME314 Machine Dynamics Final Project - Dice in the Box
 This is the repository of the final project of ME314 Machine Dynamics at Northwestern University
 
+## Table of Contents
+- [Insturctions](#Insturctions)
+- [Video Demo](#Video-Demo)
+- [Overview](#Overview)
+- [Dynamics Model Design](#Dynamics-Model-Design)
+- [Configurations](#Configurations)
+- [Simulation Steps](#Simulation-Steps)
+- [Results Visualization](#Results-Visualization)
+- [Summary](#Summary)
+
 ## Insturctions
 - **To run the simulation on Cloud(recommended):**
     - Open the Jupyter Notebook file on Google Colab
